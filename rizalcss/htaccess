@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+DirectoryIndex index.php index.phtml index.html index.htm index2.html
+
+ErrorDocument 403 https://rizalcss.com/error/403/
+ErrorDocument 404 https://rizalcss.com/error/404/
+ErrorDocument 500 https://rizalcss.com/error/500/
