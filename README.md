@@ -1,4 +1,4 @@
-# [RizalCSS](https://rizalcss.com)
+# [Rizal CSS Framework](https://rizalcss.com)
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup.
 
