@@ -1,4 +1,4 @@
-# [Rizal CSS Framework](https://rizalcss.com)
+# [Rizal CSS Framework](https://rizalcss.com) [![](https://data.jsdelivr.com/v1/package/npm/rizalcss/badge)](https://www.jsdelivr.com/package/npm/rizalcss)
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup. It was named after Dr. Jose Rizal, the Philippine National Hero.
 
