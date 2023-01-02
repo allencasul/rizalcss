@@ -1,4 +1,4 @@
-# [RizalCSS](https://rizalcss.link)
+# [Rizal CSS Framework](https://rizalcss.com)
 
 An open source design system framework that provides access to Pre-built Components to quickly build modern apps or use built-in Utility Classes to develop your own UI taste. It was named after Dr. Jose P. Rizal, the Philippine National Hero.
 
