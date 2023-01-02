@@ -2,9 +2,7 @@
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup. It was named after Dr. Jose Rizal, the Philippine National Hero.
 
-<a href="https://github.com/allencasul/rizalcss/blob/main/src/assets/img/rizalcss.webp" width="600"></a>
-
-<a href="https://rizalcss.com"><img src="https://raw.githubusercontent.com/allencasul/rizalcss/main/src/assets/img/rizalcss.webp" alt="Rizal CSS Logo" style="max-width:100%;" width="600"></a>
+<a href="https://rizalcss.com"><img src="https://raw.githubusercontent.com/allencasul/rizalcss-website/main/src/assets/img/rizal-logo.webp?token=GHSAT0AAAAAAB46HFEURH27CQNXY32HQBNIY5SJI3Q" alt="Rizal CSS Logo" style="max-width:100%;" width="600"></a>
 
 ## Installation
 

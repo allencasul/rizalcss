@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Mont-Heavy';
+  src: url(/src/assets/fonts/Mont-Heavy.otf) format("truetype");
+  font-style: normal;
+  font-display: fallback;
+}
+
+/*Mobile*/
+.rizalcss-title {
+  font-family: 'Mont-Heavy', sans-serif;
+}
+
+@media screen and (max-width: 359px) {
+  * {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*Tablet*/
+}
+
+@media screen and (min-width: 1126px) {
+  /*Desktop*/
+}

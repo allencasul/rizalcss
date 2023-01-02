@@ -1,121 +1,133 @@
 /*------------------------ DEFAULT ------------------------*/
-@font-face { font-family: 'Roboto'; src: url(Roboto.ttf) format('truetype'); }
-
-* {
-    font-family: 'Roboto';
-    font-weight: normal;
-    padding: 5px;
-    margin: 5px;
-    -webkit-tap-highlight-color: #00000000;
-    -webkit-touch-callout: none;
-    -webkit-text-size-adjust: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/assets/fonts/Roboto-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-display: fallback;
 }
 
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #dcdcdc; }
-::-webkit-scrollbar-thumb { background: #0735B3; }
+* {
+  -webkit-tap-highlight-color: #00000000;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+  font-family: 'Roboto-Regular', sans-serif;
+}
 
-body { background: #f0f2f5; color: #000000; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #dcdcdc; }
+::-webkit-scrollbar-thumb { background: #2f37cc; }
+
+body { background-color: #f4f2f2; }
 
 /*------------------------ SELECTED VALUES ------------------------*/
 :root {
-    --primary: #BA5624;
-    --disabled: #BA5624;
-    --warning: #BA5624;
-    --danger: #BA5624;
-    --successful: #FCDE9C;
-    --rajah: #FFA552;
-    --dark_purple: #381D2A;
-    --green_tea: #C4D6B0;
-    --hunter_green: #386641;
-    --may_green: #6A994E;
-    --android_green: #A7C957;
-    --eggshell: #F2E8CF;
-    --young_lips: #BC4749;
-    --space_cadet: #191D32;
-    --catawba: #6D3B47;
-    --magenta_dye: #BA2C73;
-    --cinnabar: #EF3E36;
-    --raisin_black: #2E282A;
-    --macaroni_cheese: #EDB88B;
-    --pale_pink: #FAD8D6;
-    --carnelian: #B3001B;
-    --matured_blue: #255C99;
-    --iceberg: #7EA3CC;
-    --skin_tan: #CCAD8F;
-    --champagne: #EEE0CB;
-    --battleship: #848586;
-    --old_rose: #C2847A;
-    --pine_tree: #1F271B;
-    --blue_sapphire: #19647E;
-    --yellow_crayola: #F4D35E;
-    --sandy_brown: #EE964B;
-    --lavender_blue: #D4C2FC;
-    --magnolia: #F9F5FF;
-    --enterprise_blue: #14248A;
-    --juicy_orange: #FF521B;
-    --elegant_blue: #020122;
-    --eggplant: #553A41;
-    --ocean_green: #26C485;
-    --amazon: #507255;
-    --green_plantone: #4AAD52;
-    --magic_mint: #B2E6D4;
-    --wintergreen_dream: #689689;
-    --magic_mint: #B2E6D4;
-    --light_salmon: #FAAA8D;
-    --antique_white: #FEEFDD;
-    --black_coffee: #433A3F;
-    --light_green: #8DE969;
-    --polished_pine: #72A98F;
-    --black_coral: #3D5A6C;
-    --indigo_dye: #004777;
-    --rufous: #A30000;
-    --fruity_orange: #FF7700;
-    --buff: #EFD28D;
-    --spanish_blue: #246EB9;
-    --baby_powder: #FDFFFC;
-    --laurel_green: #C0CAAD;
-    --morning_blue: #9DA9A0;
-    --rose_ebony: #654C4F;
-    --forest_green: #1B512D;
-    --spanish_viridian: #1C7C54;
-    --amethyst: #9B5DE5;
-    --magenta_crayola: #F15BB5;
-    --minion_yellow: #FEE440;
-    --crystal_blue: #00BBF9;
-    --french_sky_blue: #65AFFF;
-    --space_cadet: #1B2845;
-    --jet: #2F2F2F;
-    --maximum_yellow: #F6F930;
-    --glossy_grape: #B594B6;
-    --purpureus: #935FA7;
-    --razzmic_berry: #8A4F7D;
-    --persian_plum: #6F1D1B;
-    --bistre: #432818;
-    --windsor_tan: #99582A;
-    --camel: #BB9457;
-    --english_violet: #3D315B;
-    --freedom: #444B6E;
-    --olivine: #9AB87A;
-    --snow: #F7F0F0;
-    --persian_green: #18A999;
-    --maroon: #A53860;
-    --dark_orange: #FB8B24;
-    --byzantium: #820263;
-    --white: #ffffff;
-    --black: #000000;
-    --blue: #0000ff;
-    --red: #ff0000;
-    --green: #008000;
-    --orange: #ffa500;
-    --maximum_orange: #ff4500;
-    --violet: #ee82ee;
-    --purple: #800080;
-    --yellow: #ffff00;
-    --skyblue: #87ceeb;
+  --primary: #1f58e8;
+  --disabled: #E2E2E2;
+  --warning: #F7CA02;
+  --danger: #D31C22;
+  --successful: #19d460;
+  --rajah: #FFA552;
+  --dark_purple: #381D2A;
+  --green_tea: #C4D6B0;
+  --hunter_green: #386641;
+  --may_green: #6A994E;
+  --android_green: #A7C957;
+  --eggshell: #F2E8CF;
+  --young_lips: #BC4749;
+  --space_cadet: #191D32;
+  --catawba: #6D3B47;
+  --magenta_dye: #BA2C73;
+  --cinnabar: #EF3E36;
+  --raisin_black: #2E282A;
+  --macaroni_cheese: #EDB88B;
+  --pale_pink: #FAD8D6;
+  --carnelian: #B3001B;
+  --matured_blue: #255C99;
+  --iceberg: #7EA3CC;
+  --skin_tan: #CCAD8F;
+  --champagne: #EEE0CB;
+  --battleship: #848586;
+  --old_rose: #C2847A;
+  --pine_tree: #1F271B;
+  --blue_sapphire: #19647E;
+  --yellow_crayola: #F4D35E;
+  --sandy_brown: #EE964B;
+  --lavender_blue: #D4C2FC;
+  --magnolia: #F9F5FF;
+  --enterprise_blue: #14248A;
+  --juicy_orange: #FF521B;
+  --elegant_blue: #020122;
+  --eggplant: #553A41;
+  --ocean_green: #26C485;
+  --amazon: #507255;
+  --green_plantone: #4AAD52;
+  --magic_mint: #B2E6D4;
+  --wintergreen_dream: #689689;
+  --magic_mint: #B2E6D4;
+  --light_salmon: #FAAA8D;
+  --antique_white: #FEEFDD;
+  --black_coffee: #433A3F;
+  --light_green: #8DE969;
+  --polished_pine: #72A98F;
+  --black_coral: #3D5A6C;
+  --indigo_dye: #004777;
+  --rufous: #A30000;
+  --fruity_orange: #FF7700;
+  --buff: #EFD28D;
+  --spanish_blue: #246EB9;
+  --baby_powder: #FDFFFC;
+  --laurel_green: #C0CAAD;
+  --morning_blue: #9DA9A0;
+  --rose_ebony: #654C4F;
+  --forest_green: #1B512D;
+  --spanish_viridian: #1C7C54;
+  --amethyst: #9B5DE5;
+  --magenta_crayola: #F15BB5;
+  --minion_yellow: #FEE440;
+  --crystal_blue: #00BBF9;
+  --french_sky_blue: #65AFFF;
+  --space_cadet: #1B2845;
+  --jet: #2F2F2F;
+  --maximum_yellow: #F6F930;
+  --glossy_grape: #B594B6;
+  --purpureus: #935FA7;
+  --razzmic_berry: #8A4F7D;
+  --persian_plum: #6F1D1B;
+  --bistre: #432818;
+  --windsor_tan: #99582A;
+  --camel: #BB9457;
+  --english_violet: #3D315B;
+  --freedom: #444B6E;
+  --olivine: #9AB87A;
+  --snow: #F7F0F0;
+  --persian_green: #18A999;
+  --maroon: #A53860;
+  --dark_orange: #FB8B24;
+  --byzantium: #820263;
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #0000ff;
+  --red: #ff0000;
+  --green: #008000;
+  --orange: #ffa500;
+  --maximum_orange: #ff4500;
+  --violet: #ee82ee;
+  --purple: #800080;
+  --yellow: #ffff00;
+  --skyblue: #87ceeb;
+  --gray: #808080;
+  --lightgray: #d3d3d3;
+  --darkgray: #a9a9a9;
+  --brown: #8E4700;
 }
+
 /*------------------------ TEXT SIZE ------------------------*/
 .font_size_small { font-size: small; }
 .font_size_smaller { font-size: smaller; }
@@ -124,9 +136,9 @@ body { background: #f0f2f5; color: #000000; }
 .font_size_medium { font-size: medium; }
 .font_size_large { font-size: large; }
 .font_size_extra_large { font-size: x-large; }
-.font_size_super_large { font-size: xx-large; }
+.font_size_super_large { font-size: 3rem; }
 
-/*------------------------ font WEIGHT ------------------------*/
+/*------------------------ FONT WEIGHT ------------------------*/
 .font_weight_100 { font-weight: 100; }
 .font_weight_200 { font-weight: 200; }
 .font_weight_300 { font-weight: 300; }
@@ -150,7 +162,7 @@ body { background: #f0f2f5; color: #000000; }
 .position_fixed { position: fixed; }
 .center_absolute { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 .center_fixed { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-.fixed { position: fixed; }
+.position_fixed { position: fixed; }
 .position_absolute { position: absolute; }
 .position_relative { position: relative; }
 .position_static { position: static; }
@@ -283,6 +295,15 @@ body { background: #f0f2f5; color: #000000; }
 .color_purple { color: var(--purple); }
 .color_yellow { color: var(--yellow); }
 .color_skyblue { color: var(--skyblue); }
+.color_primary { color: var(--primary); }
+.color_disabled { color: var(--disabled); }
+.color_warning { color: var(--warning); }
+.color_danger { color: var(--danger); }
+.color_successful { color: var(--successful); }
+.color_gray { color: var(--gray); } 
+.color_lightgray { color: var(--lightgray); } 
+.color_darkgray { color: var(--darkgray); } 
+.color_brown { color: var(--brown); } 
 
 /*------------------------ BACKGROUND COLOR ------------------------*/
 .background_color_burnt_orange { background-color: var(--burnt_orange); } 
@@ -376,6 +397,15 @@ body { background: #f0f2f5; color: #000000; }
 .background_color_purple { background-color: var(--purple); }
 .background_color_yellow { background-color: var(--yellow); }
 .background_color_skyblue { background-color: var(--skyblue); }
+.background_color_primary { background-color: var(--primary); }
+.background_color_disabled { background-color: var(--disabled); }
+.background_color_warning { background-color: var(--warning); }
+.background_color_danger { background-color: var(--danger); }
+.background_color_successful { background-color: var(--successful); }
+.background_color_gray { background-color: var(--gray); } 
+.background_color_lightgray { background-color: var(--lightgray); } 
+.background_color_darkgray { background-color: var(--darkgray); } 
+.background_color_brown { background-color: var(--brown); } 
 
 /*------------------------ MARGIN TOP REM ------------------------*/
 .margin_top_1_rem { margin-top: 1rem; }
@@ -3392,6 +3422,51 @@ body { background: #f0f2f5; color: #000000; }
 .border_radius_98_pct { border-radius: 98%; }
 .border_radius_99_pct { border-radius: 99%; }
 .border_radius_100_pct { border-radius: 100%; }
+
+.primary-preloader-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.primary-preloader-container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  box-shadow: 1px 2px 6px #00000033;
+}
+  
+.primary-preloader-content-container {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+  
+.primary-preloader {
+  width: 19px;
+  height: 19px;
+  border: 2.9px solid #2b32b2;
+  border-radius: 50%;
+  display: inline-block;
+  border-top-color: transparent;
+  animation: 0.5s spin infinite linear;
+}
+  
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @media screen and (min-width: 768px) {}
 
