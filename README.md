@@ -4,6 +4,8 @@ An open-source design system framework that provides access to pre-built class c
 
 <a href="https://github.com/allencasul/rizalcss/blob/main/src/assets/img/rizalcss.webp" width="600"></a>
 
+<a href="https://rizalcss.com"><img src="https://raw.githubusercontent.com/allencasul/rizalcss/main/src/assets/img/rizalcss.webp" alt="Rizal CSS Logo" style="max-width:100%;" width="600"></a>
+
 ## Installation
 
 Installing Rizal CSS via NPM
