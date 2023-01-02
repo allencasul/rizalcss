@@ -1,12 +1,12 @@
-# [Rizal CSS Framework](https://rizalcss.com)
+# [RizalCSS](https://rizalcss.com)
 
-An open source design system framework that provides access to Pre-built Components to quickly build modern apps or use built-in Utility Classes to develop your own UI taste. It was named after Dr. Jose P. Rizal, the Philippine National Hero.
+An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup. It was named after Dr. Jose Rizal, the Philippine National Hero.
 
-<a href="https://rizalcss.link"><img src="https://github.com/softDev28/Elise/blob/main/public/assets/img/image.jpg" alt="Heroic and Supple UI CSS Framework." style="max-width:100%;" width="600"></a>
+<a href="https://rizalcss.com"><img src="https://raw.githubusercontent.com/allencasul/rizalcss-website/main/src/assets/img/rizal-logo.webp?token=GHSAT0AAAAAAB46HFEURH27CQNXY32HQBNIY5SJI3Q" alt="Rizal CSS Logo" style="max-width:100%;" width="600"></a>
 
 ## Installation
 
-Installing RizalCSS via NPM
+Installing Rizal CSS via NPM
 
 ### NPM
 
@@ -16,7 +16,7 @@ npm install rizalcss
 
 ### Importing CSS File
 
-Once the installation is done, you may now import and utilize it into your own project.
+Also, You can just use the rizal.css file alone for your project
 
 ```sh
 @import 'rizalcss/css/rizal.css'
@@ -24,9 +24,9 @@ Once the installation is done, you may now import and utilize it into your own p
 
 ## Documentation
 
-Full documentation [Click here](https://github.com/allencasul/rizacss/)
+Full documentation [Click here](https://rizalcss.com/docs/getting-started/)
 
 
 ## Licensing
 
-Copyright holder Allen Charls Casul. Source Code under [the MIT license](https://github.com/softDev28/Elise/blob/main/LICENSE).
+Copyright holder Allen Charls Casul. Source Code is under [the MIT license](https://github.com/softDev28/Elise/blob/main/LICENSE).
